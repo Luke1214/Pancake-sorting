@@ -1,12 +1,6 @@
 # Pancake-sorting
 Pancake sorting using A*
 
-/**********************************************************
-*
-* Luke Westervelt
-* June 28, 2024
-*********************************************************/
-
 To Compile:
 Navigate to 'pancakes' directory in the terminal, then run the following commands:
 1. mkdir build          (NOTE: if directory 'build' already exists, first run 'rmdir build')
@@ -62,7 +56,7 @@ search.h
 search.cpp
     The files define and implement the A* and USC searches.
 
-comparison.cpp
+comparison.h
     This file implements the comparison that is used to determine priority for the 
     priority queue.
 
@@ -71,4 +65,4 @@ pancakes.cpp:
     modifies it if necessary (if the user enters a '10' it changes that string to a 
     single character ':', which has a higher dec value than 1,...,9). 
     
-    This file also establishes the goal state and prints the stack.
+This file also establishes the goal state and prints the stack.
